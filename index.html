@@ -63,7 +63,7 @@ h3{font:700 1.2rem/1.3 var(--head);margin:0 0 .3rem;color:var(--navy)}
 .about p{margin:0 0 1rem}
 .pills{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.9rem;padding:0;list-style:none}
 .pills li{border:1.5px solid var(--navy);border-radius:999px;padding:.2rem .75rem;font:500 .88rem var(--head);color:var(--navy)}
-.card a.more{display:inline-block;margin-top:.8rem;font:700 .95rem var(--head)}
+.card a.more, .card span.more{display:inline-block;margin-top:.8rem;font:700 .95rem var(--head)}
 
 /* timeline */
 .tl{border-left:2px solid var(--gold);margin:0 0 0 .4rem;padding:0 0 0 1.6rem}
@@ -114,7 +114,6 @@ footer .btn.s{border-color:#fff;color:#fff}footer .btn.s:hover{background:#2B506
     </div>
     <div class="portrait">
       <span>A</span>
-      <!-- Upload your photo as profile.jpg in the same folder as index.html -->
       <img src="profile.jpg" alt="Portrait of Adityananto" onerror="this.remove()">
       <div class="badge">&lt;/&gt; Web Development</div>
     </div>
@@ -169,13 +168,12 @@ footer .btn.s{border-color:#fff;color:#fff}footer .btn.s:hover{background:#2B506
       <div class="card"><p class="meta">WEBSITE · PERSONAL PROJECT</p><h3>This Portfolio Website</h3>
         <p>A responsive portfolio built with HTML and CSS and published with GitHub Pages.</p><a class="more" href="https://github.com/Adityananto">View on GitHub ↗</a></div>
       <div class="card"><p class="meta"><span class="ph">WEB</span> · ACADEMIC PROJECT</p><h3><span class="ph">RuaCorner.hq</span></h3>
-        <p><span class="ph">My Jobdesk in project is data analyst</span></p><a class="more" href="#">View project ↗</a></div>
+        <p><span class="ph">Worked as a Data Analyst to process and interpret project datasets.</span></p></div>
       <div class="card"><p class="meta"><span class="ph">DATABASE</span> · ACADEMIC PROJECT</p><h3><span class="ph">Skriptif</span></h3>
-        <p><span class="ph">I build a landpage and manage the database in this project</span></p><a class="more" href="#">View project ↗</a></div>
-      <div class="card"><p class="meta"><span class="ph">UI/UX</span></p><h3><span class="ph">Responsi Pmob</span></h3>
-        <p><span class="ph">I build a ui/ux website for organize a work meeting</span></p><a class="more" href="#">View project ↗</a></div>
+        <p><span class="ph">Built the landing page and managed the database structure.</span></p></div>
+      <div class="card"><p class="meta"><span class="ph">UI/UX</span> · ACADEMIC PROJECT</p><h3><span class="ph">Responsi Pmob</span></h3>
+        <p><span class="ph">Designed UI/UX prototypes for a meeting organization web app.</span></p></div>
     </div>
-    <p class="sub" style="margin-top:1.5rem;font-size:.92rem"></p>
   </div>
 </section>
 
@@ -210,7 +208,7 @@ footer .btn.s{border-color:#fff;color:#fff}footer .btn.s:hover{background:#2B506
     </div>
     <div class="tl">
       <div class="it"><p class="meta"><span class="ph">2023</span> — Present · Expected <span class="ph">2027</span></p>
-        <h3>Bachelor’s Degree in Informatics</h3><p><span class="ph">Universitas Ahmad Dahlan</span>, <span class="ph">Bantul,Yogyakarta</span></p>
+        <h3>Bachelor’s Degree in Informatics</h3><p><span class="ph">Universitas Ahmad Dahlan</span>, <span class="ph">Bantul, Yogyakarta</span></p>
         <ul class="pills"><li><span class="ph">Web Programming</span></li><li><span class="ph">Database Systems</span></li><li><span class="ph">Data Structures</span></li><li><span class="ph">Software Engineering</span></li><li><span class="ph">Computer Networks</span></li></ul></div>
       <div class="it"><p class="meta"><span class="ph">2020 — 2023</span></p>
         <h3>High School / Vocational School</h3><p><span class="ph">SMA Negeri 1 Karangdowo</span></p></div>
@@ -229,21 +227,18 @@ footer .btn.s{border-color:#fff;color:#fff}footer .btn.s:hover{background:#2B506
     <div class="grid">
       <div class="card gcard">
         <div class="shot">Red Dead Redemption 2
-          <!-- Put your image at assets/rdr2.jpg -->
           <img src="assets/rdr2.jpg" alt="Red Dead Redemption 2" onerror="this.remove()"></div>
         <div class="gbody"><p class="meta">OPEN WORLD · WESTERN · ADVENTURE</p><h3>Red Dead Redemption 2</h3>
           <p>A story-driven western with a huge, detailed world and memorable characters.</p></div>
       </div>
       <div class="card gcard">
         <div class="shot">Wuthering Waves
-          <!-- Put your image at assets/wuthering-waves.jpg -->
           <img src="assets/wuthering-waves.jpg" alt="Wuthering Waves" onerror="this.remove()"></div>
         <div class="gbody"><p class="meta">ACTION RPG · OPEN WORLD</p><h3>Wuthering Waves</h3>
           <p>Fast combat, character collecting, and a world to explore.</p></div>
       </div>
       <div class="card gcard">
         <div class="shot">Ghost of Tsushima
-          <!-- Put your image at assets/ghost-of-tsushima.jpg -->
           <img src="assets/ghost-of-tsushima.jpg" alt="Ghost of Tsushima" onerror="this.remove()"></div>
         <div class="gbody"><p class="meta">OPEN WORLD · SAMURAI · ACTION</p><h3>Ghost of Tsushima</h3>
           <p>A samurai adventure with sword duels and beautiful scenery.</p></div>
